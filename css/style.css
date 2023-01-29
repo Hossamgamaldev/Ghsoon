@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* Start The Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    height: 120px;
+}
+
+header span {
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header .div-header-left input[type="search"] {
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px black;
+}
+
+header .div-header-left input[type="search"]:focus {
+    outline: none;
+}
+
+.div-header-left {
+    border-bottom: 1px solid black;
+    height: 40px;
+
+}
+
+header .div-header-left i {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.div-header-left:hover i {
+    opacity: 1;
+
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+.div-header-right>* {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.div-header-right {
+    display: flex;
+}
+
+.div-header-right select {
+    opacity: .5;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    padding: px;
+}
+
+.div-header-right i {
+    font-size: 30px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.div-header-right i:hover {
+
+    opacity: 1;
+}
+
+.div-header-right .fa-cart-shopping {
+    font-size: 27px !important;
+
+}
+
+/* End The Header */
+/* Start The Nav */
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+z-index: 5;
+background-color: white;
+height: 50px;
+align-items: center;
+}
+
+nav a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+
+    opacity: 1;
+
+}
+
+/* End The Nav */
+/* Start The 1th sec */
+.sec1{
+display: flex;
+            margin: 40px auto 100px;
+    justify-content: space-around;
+    align-items: center;
+        height: 70vh;
+        width: 80%;
+        background-color: #ececec;
+}
+.sec1 img{
+width: 500px;
+height: 490px;
+align-self: flex-end;
+}
+
+.slogan h1 {
+text-align: center;
+font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.slogan h1 span {
+color: #cc0000;
+font-size: 55px;
+
+}
+
+
+
+/* End The 1th sec */
+/* Start The 2th sec */
+.sec2 {
+    width: 80%;
+    margin: auto;
+}
+
+.p-Collections {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.p-Collections h2 {
+    margin-bottom: 30px;
+}
+
+.Collections {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.Collections img {
+    width: 100%;
+    height: 422px;
+    position: relative;
+}
+
+.Collections img:hover {
+    opacity: .7;
+}
+
+.Collections div {
+
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.Collections div div {
+    z-index: 2;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.Collections h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Collections a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(111, 104, 104);
+    font-weight: 600;
+}
+
+.Collections a:hover {
+
+    color: #cc0000;
+}
+
+
+.cat1 {
+    width: 69%;
+}
+
+.cat2 {
+    width: 29%;
+}
+
+.cat3 {
+    width: 29%;
+}
+
+.cat4 {
+    width: 69%;
+}
+
+/* End The 2th sec */
+/* Start The 3th sec */
+
+.sec3 {
+    width: 80%;
+    margin: auto;
+}
+.sec3 h2 {
+    text-align: center;
+    margin: 50px 0 ;
+}
+.Products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Products div {
+    width: 22%;
+
+}
+
+.Products img {
+    width: 100%;
+    height: 270px;
+    cursor: pointer;
+}
+
+.Products h4 {
+    margin-bottom: 10px;
+}
+
+.newprice {
+    font-size: 22px;
+    color: #cc0000;
+    font-weight: 600;
+}
+
+.Products div span:first-of-type {
+    font-size: 20px;
+    opacity: .7;
+    font-weight: 600;
+}
+
+.icons {
+    width: 100% !important;
+    color: #FFD700;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+/* End The 3th sec */
+/* Start The 4th sec */
+
+.sec4 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.sec4 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.OurBlog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogs {
+
+    width: 30%;
+    height: 300PX;
+
+}
+
+.blogs div img {
+    position: absolute;
+    z-index: -1;
+    height: 300PX;
+}
+
+.p-Blogs {
+    width: 100%;
+    height: 300PX;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+    visibility: hidden;
+    background-color: white;
+    padding-left: 15px;
+    border: 1px solid black;
+}
+
+.p-Blogs a {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+.TheDate {
+    color: black !important;
+    opacity: .7;
+    margin-top: 20px
+}
+
+.TheName {
+    margin: 30px 0 80px 0;
+}
+
+.Continue {
+    width: fit-content;
+    opacity: .5;
+    margin-top: 10px;
+}
+.Continue:hover {
+    opacity: 1;
+
+}
+.blogs:hover .p-Blogs {
+    visibility: visible;
+    background-color: white;
+
+}
+
+/* End The 4th sec */
+/* Start The Footer */
+footer {
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-footer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+    padding: 0 20px;
+}
+
+.footer-left a:hover {
+
+    opacity: 1;
+}
+
+.footer-mid {
+    text-align: center;
+}
+
+.footer-mid span {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right p {
+    color: black;
+    opacity: .5;
+    padding: 0 30px 0 0;
+}
+
+.footer-right .icons-footer i {
+    color: black;
+    opacity: .5;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.footer-right .icons-footer i:hover {
+
+    opacity: 1;
+
+}
+
+.copyrights {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.copyrights i {
+    padding-right: 10px;
+    opacity: .5;
+}
+
+.copyrights p {
+
+    color: black;
+    opacity: .5;
+    font-size: 13px;
+}
+
+.copyrights p:last-child {
+    padding-left: 15px;
+    color: black;
+    opacity: 1;
+    font-size: 18px;
+}
